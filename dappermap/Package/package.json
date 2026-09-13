@@ -1,0 +1,13 @@
+{
+    "name": "dappermap",
+    "version": "0.0.0",
+    "type": "module",
+    "private": true,
+    "exports": {
+        ".": "./index.js",
+        "./wasm": "./dappermap.wasm"
+    },
+    "dependencies": {
+        "@bjorn3/browser_wasi_shim": "0.3.0"
+    }
+}
